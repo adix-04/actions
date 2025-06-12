@@ -1,1 +1,0 @@
-savedcmd_/home/adin.n@acsiatech.com/Desktop/usbDriver/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/adin.n@acsiatech.com/Desktop/usbDriver/Module.symvers -T /home/adin.n@acsiatech.com/Desktop/usbDriver/modules.order -i Module.symvers -e 
