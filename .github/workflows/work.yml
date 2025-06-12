@@ -1,0 +1,15 @@
+#first workflow
+name: firstCI
+
+on: [push]
+workflow_dispatch:
+jobs:
+  build:
+      runs-on: ubuntu-latest
+       
+     
+
+  steps:
+    - uses: actions/checkout@v4
+    - name: run something 
+      run: echo hello world
