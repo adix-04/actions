@@ -1,0 +1,1 @@
+savedcmd_/home/adin.n@acsiatech.com/Desktop/usbDriver/usbDriver.mod := printf '%s\n'   usbDriver.o | awk '!x[$$0]++ { print("/home/adin.n@acsiatech.com/Desktop/usbDriver/"$$0) }' > /home/adin.n@acsiatech.com/Desktop/usbDriver/usbDriver.mod

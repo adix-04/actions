@@ -1,0 +1,1 @@
+savedcmd_/home/adin.n@acsiatech.com/Desktop/usbDriver/modules.order := {   echo /home/adin.n@acsiatech.com/Desktop/usbDriver/usbDriver.o; :; } > /home/adin.n@acsiatech.com/Desktop/usbDriver/modules.order
