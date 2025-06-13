@@ -26,20 +26,13 @@ jobs:
 
       - name: install gcc and dependenies
         run: sudo apt-get update && sudo apt-get install -y gcc
-      
-      - name: make build folder  
-        run: mkdir build
-      - name: change folder 
-        run: cd build
       - name: execute cmake
-        run: cmake ..
+        run: cmake .
       - name: run make file
         run: make
       - name: run executable
         run: ./MyTests
       
-      - name: remove artifacts
-        run: sudo rm -rf build
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
