@@ -87,7 +87,7 @@ jobs:
       - run: gcc test.c
 
       - name: execute code
-      - run: ./a.out
+      - run: ./
 
       - name: Run something
         run: echo hello world
