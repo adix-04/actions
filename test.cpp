@@ -10,6 +10,7 @@ TEST(sample_test2, diff_test){
     EXPECT_EQ(diff(20,10),10);
     EXPECT_EQ(diff(13,2),11);
     EXPECT_EQ(diff(22,10),12);
+    EXPECT_EQ(diff(10,4),6)
 }
 
 int main()
