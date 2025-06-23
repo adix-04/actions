@@ -34,6 +34,7 @@ jobs:
         run: ./MyTests
   cmd: 
     runs-on: ubuntu-latest
+    needs: build
     steps:
       # Runs a single command using the runners shell
       - name: Run a one-line script
